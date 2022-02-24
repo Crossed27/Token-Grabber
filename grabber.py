@@ -1,3 +1,5 @@
+from modules import grabtokenfromlink
+
 print("""\
 
                            ██████╗ ██████╗  █████╗ ██████╗ ██████╗ ███████╗██████╗ 
@@ -21,12 +23,7 @@ for i in shitList:
 
 strInput = input()
 
-# define a function
-def shitFunction():
-    print("W.I.P")
-    input()
-
 if strInput == "1":
-    shitFunction()
+    grabtokenfromlink.CreatePrompt()
 
 input()
