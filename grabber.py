@@ -23,13 +23,10 @@ strInput = input()
 
 # define a function
 def shitFunction():
-    print("W.I.P") # change this function's behaviour to whatever you want :]
-    input() # forgor
+    print("W.I.P")
+    input()
 
-# change number to whatever you like
 if strInput == "1":
     shitFunction()
-
-# test it out ig
 
 input()
